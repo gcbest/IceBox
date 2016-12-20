@@ -1,0 +1,26 @@
+.nav-wrapper {
+        background-color: black;
+        width: 100%;
+    }
+    
+.container {
+        width: 100%;
+   }
+
+.section {
+	background-color: #F7F6F5;
+}
+
+.divider {
+	background-color: black;
+}
+
+.heading {
+	color: black;	
+}
+
+#contact-form {
+	background-color: #EEEDEB;
+	border-width: 50px;
+	/*border-radius: 550px;*/
+}

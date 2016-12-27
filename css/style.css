@@ -21,6 +21,15 @@
 
 #contact-form {
 	background-color: #EEEDEB;
+	border-color: black;
 	border-width: 50px;
 	/*border-radius: 550px;*/
+}
+
+.media {
+	
+}
+
+#comment-section {
+	height:8rem;
 }

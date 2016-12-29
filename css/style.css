@@ -21,12 +21,27 @@
 
 #contact-form {
 	background-color: #EEEDEB;
+	border: 1px solid;
 	border-color: black;
-	border-width: 50px;
-	/*border-radius: 550px;*/
+	/*border-radius: 300px;*/
+	padding: 20px;
+}
+
+#submitBtn {
+	background-color: black;
 }
 
 #contact-us {
+	color: black;
+}
+
+form {
+	/*border: 1px solid;
+	border-color: black;*/
+	
+}
+
+.card-title {
 	color: black;
 }
 

@@ -1,11 +1,11 @@
 .nav-wrapper {
-        background-color: black;
-        width: 100%;
-    }
+    background-color: black;
+    width: 100%;
+}
     
 .container {
-        width: 100%;
-   }
+    width: 100%;
+}
 
 .section {
 	background-color: #F7F6F5;
@@ -23,7 +23,6 @@
 	background-color: #EEEDEB;
 	border: 1px solid;
 	border-color: black;
-	/*border-radius: 300px;*/
 	padding: 20px;
 }
 
@@ -33,12 +32,6 @@
 
 #contact-us {
 	color: black;
-}
-
-form {
-	/*border: 1px solid;
-	border-color: black;*/
-	
 }
 
 .card-title {

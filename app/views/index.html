@@ -20,7 +20,7 @@
             <div class="col s12">
                 <nav>
                     <div class="nav-wrapper">
-                        <a href="#" class="brand-logo"><img src="../images/icebox.png" alt="ICEBOX"></a>
+                        <a href="https://iceboxent.herokuapp.com" class="brand-logo"><img src="../images/icebox.png" alt="ICEBOX"></a>
                         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
                         <ul class="right hide-on-med-and-down">
                             <li><a href="#events">Events</a></li>
@@ -204,10 +204,10 @@
             	<br><br><br>
             	<div id="contact-form">
             		<form action="https://formspree.io/juni1028@aol.com" method="POST" class="valign" >
-	                    <input type="text" name="name" placeholder="Name">
-	                    <input type="email" name="_replyto" placeholder="E-mail">
-	                    <input type="hidden" name="_next" value="//site.io/thanks.html" />
-	                    <textarea name="comment" placeholder="Enter comments here" id="comment-section"></textarea>
+	                    <input type="text" name="name" placeholder="Name" class="comment-field">
+	                    <input type="email" name="_replyto" placeholder="E-mail" class="comment-field">
+	                    <input type="hidden" name="_next" value="https://iceboxent.herokuapp.com" />
+	                    <textarea name="comment" placeholder="Enter comments here" id="comment-section" class="comment-field"></textarea>
 	                    <button class="btn waves-effect waves-light" type="submit" name="action" id="submitBtn">Submit
     						<i class="material-icons right">send</i>
   						</button>
@@ -226,10 +226,14 @@
         });
 
         $(".button-collapse").sideNav();
-    });
 
-    $(document).ready(function(){
-      $('.carousel').carousel();
+        $('.carousel').carousel();
+
+        $('.submitBtn').click(function() {
+            $('.comment-field').val("");
+        })
+        
+
     });
     </script>
 </body>

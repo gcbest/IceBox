@@ -4,6 +4,9 @@ var path = require('path');
 var app = express();
 var PORT = process.env.PORT;
 
+app.use(express.static(__dirname + '/app/public'));
+
+
 app.get('/', function(req, res) {
 	res.sendFile(path.join(__dirname, '/app/views/index.html'))
 });
